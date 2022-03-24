@@ -1,0 +1,132 @@
+.navigator{
+    background-color: #000000;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 30px;
+   
+}
+
+.navContent{
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.pokeballImage{
+    width: 60px;
+    height: 50px;
+    justify-self: center;
+    align-self: center;
+}
+.container{
+    margin: 0 auto;
+    justify-content: center;
+    flex: 1;
+}
+.pokemon{
+    display: flex;
+    margin: 20px 10px;
+    background: #f12711;  /* fallback for old browsers */
+background: linear-gradient(to right, #e2541c, #eec381); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+    color: rgb(31, 29, 29);
+    width: 300px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 30px;
+    height: 50px;
+    border: 1px solid rgb(192, 202, 47);
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+.pokemonLinkStyle{
+    text-decoration: none;
+}
+
+.sprites{
+    margin: 30px;
+    width: 250px;
+    height: 250px;
+    border: 0.5px solid rgb(248, 145, 10);
+    border-radius: 10px;
+    background-color: rgb(231, 227, 218);
+    padding: 10px;
+    box-shadow: 0px 0px 2px 2px;
+}
+.pokemonInfoContent{
+    display: flex;
+    justify-content: flex-start;
+background: linear-gradient(to right, #546880b0, #3d4e6e71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    flex-direction: row;
+    width: 100%;
+    font-size: 20px;
+    height: 100vh;
+
+}
+.pokeInfo{
+    margin: 30px 0px 0px 80px;
+}
+.name{
+    background: linear-gradient(to right, #b68928, #c7301f); 
+    border-radius: 10px;
+    padding: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: rgb(240, 229, 229);
+    font-weight: bold;
+}
+.type{
+    background: linear-gradient(to right, #b68928, #c7301f); 
+    border-radius: 10px;
+    padding: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px;
+    color: rgb(240, 229, 229);
+}
+.abilities{
+     background: linear-gradient(to right, #b68928, #c7301f); 
+    border-radius: 10px;
+    padding: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: rgb(240, 229, 229);
+}
+
+.stats{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 200px;
+    display: flex;
+    margin-bottom: 15px;
+    color: rgb(10, 52, 77);
+    flex-direction: column;
+    font-weight: bolder;
+}
+.statsItem{
+    border: 1px solid rgb(5, 5, 5);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 3px 2px 2px 0px;
+    background: linear-gradient(to right, #dfdad7, #a09d92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-between;
+}
+.statsnumber{
+    color: rgb(250, 15, 15);
+    margin-left: 10px;
+    font-size: 20px;
+}
+

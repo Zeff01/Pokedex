@@ -1,14 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Header from './header';
-import Pokemon from './pokemon';
+import Homepage from './Screens/Homepage'
+import Pokemon from './Screens/Pokemon'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Routes,
+  Link
+} from "react-router-dom";
+
+
+
 
 function App() {
+
+
+
   return (
-    <div>
-  <Header/>
-  <Pokemon/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Homepage />}>
+        </Route>
+        <Route path={`/pokemon/:id`} element={<Pokemon />}>
+        </Route>
+      </Routes>
+    </Router>
 
   );
 }
